@@ -1,7 +1,23 @@
 # IQT_TTS
 
+目前，我正在評估 VALL-E X 和 XTTS 兩種語音合成技術：
+
+- VALL-E X 在重現真實語氣和音色方面表現出色，但其生成過程目前還不夠穩定。
+  
+- XTTS 經過微調能夠模擬出台灣口音，且其語音生成過程相對更為穩定。
+
+另外，值得注意的是：
+  - VALL-E X 在使用音頻提示（Audio Prompt）進行生成時會出現穩定性問題，因此我沒有提供包含音頻提示的生成音檔。
+  - VALL-E X 的基礎模型（Base model）在不使用音頻提示的情況下會隨機生成不同角色的聲音，故也沒有附上基礎模型的生成音檔示例。
+
 ## Case 1
 **這裡是網際智慧的'語音生成'服務, 我是xx，現在是人工智能生成的語音**
+
+VALL-E X finetune 4 hr (生成5~10次挑選最佳)
+| Model        | Audio Prompt | Generate Audio |   
+|--------------|--------------|----------------|
+|  vallex-ft   |      -       |[vallex-base-demo01-js.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/4c6b398c-254a-45c5-9818-edb70486bbc9)|
+
 
 XTTS-base
 | Model        | Audio Prompt | Generate Audio |   
@@ -29,6 +45,12 @@ XTTS-finetune 19 Epoch
 
 ## Case 2
 ### 現代的女性真的要成為一個,靠自己的勞力經濟獨立的女性嗎? 我們在他的小說裡會看到許許多多這樣的一個心情的女性描繪.
+
+VALL-E X finetune 4 hr (生成5~10次挑選最佳)
+| Model        | Audio Prompt | Generate Audio |   
+|--------------|--------------|----------------|
+|  vallex-ft   |      -       |[vallex-base-demo02-js.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/b918bc29-1bc4-482d-8591-be07b757cba2)|
+
 
 XTTS-base
 | Model        | Audio Prompt | Generate Audio |   
