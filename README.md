@@ -18,7 +18,8 @@
 VALL-E X finetune 4 hr (生成5~10次挑選最佳)
 | Model        | Audio Prompt | Generate Audio |   
 |--------------|--------------|----------------|
-|  vallex-ft   |      -       |[vallex-base-demo01-js.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/4c6b398c-254a-45c5-9818-edb70486bbc9)|
+|  vallex-ft   |      -       |[vallex-base-demo01-js.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/73150a10-3a3e-4608-aa00-d48e2e0d3980)|
+
 
 
 XTTS-base
