@@ -3,6 +3,15 @@
 ## Case 1
 **這裡是網際智慧的'語音生成'服務, 我是xx，現在是人工智能生成的語音**
 
+XTTS-base
+| Model        | Audio Prompt | Generate Audio |   
+|--------------|--------------|----------------|
+| xtts-ft-ep3  |[dr-cut.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/047ba0f5-05a1-4e04-9cda-87e812888c1f)|[xtts-base-demo01-dr.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/0187df9c-e577-44ab-9d97-95c6635af18e)
+| xtts-ft-ep3  |[js-1-cut.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/f33d1414-9ce1-40fa-bdcd-ce5e2cc6b375)|[xtts-base-demo01-js.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/18f2d4dd-612a-4eac-8cf9-abdc2634cc5d)
+| xtts-ft-ep3  |[xs-1-cut.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/4622777e-708c-4cd7-b6d3-5c742a062769)|[xtts-base-demo01-xs.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/b7f7ca91-c747-4e6b-9fa8-5fdfaa52dc2e)
+
+
+
 XTTS-finetune 3 Epoch
 | Model        | Audio Prompt | Generate Audio |   
 |--------------|--------------|----------------|
@@ -20,6 +29,13 @@ XTTS-finetune 19 Epoch
 
 ## Case 2
 ### 現代的女性真的要成為一個,靠自己的勞力經濟獨立的女性嗎? 我們在他的小說裡會看到許許多多這樣的一個心情的女性描繪.
+
+XTTS-base
+| Model        | Audio Prompt | Generate Audio |   
+|--------------|--------------|----------------|
+| xtts-ft-ep3  |[dr-cut.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/047ba0f5-05a1-4e04-9cda-87e812888c1f)|[xtts-base-demo02-dr.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/27f0083e-7e8f-4b2f-97f4-b5438b1ca2dc)
+| xtts-ft-ep3  |[js-1-cut.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/f33d1414-9ce1-40fa-bdcd-ce5e2cc6b375)|[xtts-base-demo02-js.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/4a268411-1945-4dc8-864a-631195282935)
+| xtts-ft-ep3  |[xs-1-cut.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/4622777e-708c-4cd7-b6d3-5c742a062769)|[xtts-base-demo02-xs.webm](https://github.com/bensonbs/IQT_TTS/assets/120996184/bcf0049a-2731-45dc-a296-596a6dcab6f3)
 
 XTTS-finetune 3 Epoch
 | Model        | Audio Prompt | Generate Audio |   
