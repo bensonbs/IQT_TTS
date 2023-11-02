@@ -1,7 +1,7 @@
 # IQT_TTS
 
 ## Case 1
-**這裡是網際智慧的'語音生成'服務, 我是**，現在是人工智能生成的語音**
+**這裡是網際智慧的'語音生成'服務, 我是xx，現在是人工智能生成的語音**
 
 XTTS-finetune 3 Epoch
 | Model        | Audio Prompt | Generate Audio |   
